@@ -252,6 +252,10 @@ main {
   background: linear-gradient(to left, #72b6e3, #985eb5);
 }
 
+#table {
+  padding: 100px;
+}
+
 .table {
   width: 100%;
   border-collapse: collapse;
@@ -260,14 +264,12 @@ main {
 .table thead {
   color: #fff;
   background: #000;
-  border-radius: 5px 5px 0 0;
 }
-.table thead th,
-.table thead td {
-  border: 1px solid #000;
+.table th,
+.table td {
   padding: 5px 10px;
 }
-.table thead td {
+.table td {
   text-align: center;
 }
 

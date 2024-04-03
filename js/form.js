@@ -9,6 +9,11 @@ const table = document.querySelector(".table");
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
+
+    if (inputPassword.value !== inputPasswordConf.value) {
+        alert("Kodni togri takrorlang").preventDefault();
+    }
+
     const item = document.createElement("tr");
     item.className = "item";
 
