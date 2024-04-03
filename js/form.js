@@ -10,7 +10,8 @@ const table = document.querySelector(".table");
 form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    if (inputPassword.value !== inputPasswordConf.value) {
+    while (inputPassword.value !== inputPasswordConf.value) {
+        inputPasswordConf.value = "";
         alert("Kodni togri takrorlang").preventDefault();
     }
 
